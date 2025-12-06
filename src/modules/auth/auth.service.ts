@@ -1,7 +1,7 @@
 import { config } from "./../../config/index";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import { pool } from "../../server";
+import { pool } from "../..";
 import dotenv from "dotenv";
 
 dotenv.config();

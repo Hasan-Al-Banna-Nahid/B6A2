@@ -1,4 +1,4 @@
-import { pool } from "../../server";
+import { pool } from "../..";
 
 export class VehicleService {
   async createVehicle(data: any) {
