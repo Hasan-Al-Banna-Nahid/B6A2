@@ -1,4 +1,4 @@
-import { pool } from "../..";
+import { pool } from "../../server";
 
 export class BookingService {
   async createBooking(data: any) {

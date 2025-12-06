@@ -1,4 +1,4 @@
-import { pool } from "../..";
+import { pool } from "../../server";
 import bcrypt from "bcryptjs";
 
 export class UserService {
